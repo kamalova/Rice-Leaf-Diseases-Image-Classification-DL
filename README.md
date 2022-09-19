@@ -20,7 +20,9 @@ In an effort to solve this problem and assist farmers and everyday gardeners to 
  ![class_distr](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/Images/class_distribution.png) <p>
   
   Natural Green leaves indicate **healthy** rice plants.
-  ![healthy](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/Images/health.png) 
+  ![healthy](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/Images/health.png) <p>
+ **Brown Spot (Helminthosporiose)**  is the one of the major fungal diseases in rice in which it is caused by Bipolarisoryzae. The fungus can survive in the seed for more than four years and can spread from plant to plant through air.
+  ![bs](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/Images/bs.png) <p>
   
   ## Conclusion
   ## Recommendations
