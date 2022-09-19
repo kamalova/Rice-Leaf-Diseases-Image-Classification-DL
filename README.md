@@ -16,7 +16,7 @@ In traditional practices, identification is performed either by visual observati
 In an effort to solve this problem and assist farmers and everyday gardeners to ensure a healthy crop, **Leaf Green** uses an image classification model to help predict and identify three common leaf diseases  *(Brown Spot, Leaf Blast, Hispa)*  based on images of both healthy and diseased rice plant leaves.
   
   ## Data Understanding
- The data was sourced from https://www.kaggle.com/datasets/nizorogbezuode/rice-leaf-images dataset . The images are in 4 folders, classified as follows:
+ The data was sourced from https://www.kaggle.com/datasets/nizorogbezuode/rice-leaf-images dataset . The images are in 4 folders, classified as follows:<p>
  ![class_distr](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/Images/class_distribution.png)
   
   ## Conclusion
