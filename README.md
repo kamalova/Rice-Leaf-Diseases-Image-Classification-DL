@@ -23,8 +23,10 @@ In an effort to solve this problem and assist farmers and everyday gardeners to 
   ![healthy](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/Images/health.png) <p>
  **Brown Spot (Helminthosporiose)**  is the one of the major fungal diseases in rice in which it is caused by Bipolarisoryzae. The fungus can survive in the seed for more than four years and can spread from plant to plant through air.
   ![bs](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/Images/bs.png) <p>
- **Hispa** scrapes the upper surface of leaf blades leaving only the lower epidermis.It also tunnels through the leaf tissues. When damage is severe, plants become less vigorous. The presence of grassy weeds in and near rice fields as alternate hosts harbor and encourage the pest to develop. 
+ **Hispa** scrapes the upper surface of leaf blades leaving only the lower epidermis. It also tunnels through the leaf tissues. When damage is severe, plants become less vigorous. The presence of grassy weeds in and near rice fields as alternate hosts harbor and encourage the pest to develop. 
   ![hispa](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/Images/hispa.png) <p>
+ **Leaf Blast** *(leaf and collar)* is caused by the fungus Magnaporthe oryzae. It can affect all above ground parts of a rice plant: leaf, collar, node, neck, parts of panicle, and sometimes leaf sheath. Rice can have blast in all growth stages.
+  ![lb](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/Images/lb.png) <p>
   
   ## Conclusion
   ## Recommendations
