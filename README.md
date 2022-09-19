@@ -17,7 +17,9 @@ In an effort to solve this problem and assist farmers and everyday gardeners to 
   
   ## Data Understanding
  The data was sourced from https://www.kaggle.com/datasets/nizorogbezuode/rice-leaf-images dataset . The images are in 4 folders, classified as follows:<p>
- ![class_distr](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/Images/class_distribution.png)
+ ![class_distr](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/Images/class_distribution.png) <p>
+  
+   
   
   ## Conclusion
   ## Recommendations
