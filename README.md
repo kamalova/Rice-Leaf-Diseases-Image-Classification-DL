@@ -8,7 +8,7 @@
 * [Model Analysis](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/README.md#overview-and-business-statement)
 * [Conclusion](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/README.md#overview-and-business-statement)
 * [Recommendations and Future Consideration](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/README.md#overview-and-business-statement)
-* [For More Information]
+* [For More Information](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/README.md#overview-and-business-statement)
 
 ###  Overview and Business Statement 
 Rice is one of the most cultivated crops in the world, in over a hundred countries. As per reports by interest groups, rice consists of a total harvested area of approximately 158 million hectares, producing more than 700 million tons annually (470 million tons of milled rice). With rice being such a valuable commodity, a common problem that widespread cultivators face is infestation of rice leaf diseases. Infection by diseases results in great loss to economic to the farmers in every year.
