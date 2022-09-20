@@ -33,7 +33,7 @@ In an effort to solve this problem and assist farmers and everyday gardeners to 
 After modeling with various CNN's the most promising involved transfer learning with *InceptionV3*. 
 This model was announced by the Google team in December 2015. V2 has two 3x3 convolution kernels instead of a 5x5, while V3 will decompose more thoroughly. The core idea of V3 is to first use two 3x3 convolution kernels instead of 5x5 convolution kernels, and three 3x3 convolution kernels instead of 7x7 convolution kernels to reduce the amount of parameters and speed up calculations. V3 further decomposes the nxn convolution kernel into 1xn and nx1 convolution kernels, while reducing the size of the feature map and increasing the number of channels.
 ### Performance<p>
-The final model had an accuracy score of 79% when predicting unseen data (test set). The confusion matrix from the test set is depicted below. The model is much better at correctly identifying the healthy leaves, and still struggles with correctly identifying the hispa leaves. However, it is overall predicting most of each class correctly.
+The final model had an accuracy score of 79% when predicting unseen data (test set). The confusion matrix from the test set is depicted below. The model is much better at correctly identifying the healthy leaves, and still struggles with correctly identifying the hispa leaves. However, it is overall predicting most of each class correctly.<p>
    ![conf_matrix](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/Images/conf_matrix.png) <p> 
    ![classf_report](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/Images/classif_report.png) <p> 
      
