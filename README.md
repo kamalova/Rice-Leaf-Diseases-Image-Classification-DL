@@ -4,7 +4,7 @@
 **Author: Nurgul Kurbanali kyzy** <p>
 #### Table of Contents
 * [Overview and Business Statement](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/README.md#overview-and-business-statement)
-* [Data Understanding](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/README.md#overview-and-business-statement)
+* [Data Understanding]https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/README.md#data-understanding
 * [Model Analysis](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/README.md#overview-and-business-statement)
 * [Conclusion](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/README.md#overview-and-business-statement)
 * [Recommendations and Future Consideration](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/README.md#overview-and-business-statement)
