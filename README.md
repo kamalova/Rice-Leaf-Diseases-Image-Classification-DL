@@ -5,7 +5,7 @@
 #### Table of Contents
 * Overview and Business Statement
 * Data Understanding
-* Conclusion
+* Model Analysis
 * Recommendations
 
 ##  Overview and Business Statement
@@ -29,6 +29,8 @@ In an effort to solve this problem and assist farmers and everyday gardeners to 
   ![bs](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/Images/bs.png) <p>
 
   
-  ## Conclusion
+  ## Model Analysis
+After modeling with various CNN's the most promising involved transfer learning with InceptionV3. 
+This model was announced by the Google team in December 2015. V2 has two 3x3 convolution kernels instead of a 5x5, while V3 will decompose more thoroughly. The core idea of V3 is to first use two 3x3 convolution kernels instead of 5x5 convolution kernels, and three 3x3 convolution kernels instead of 7x7 convolution kernels to reduce the amount of parameters and speed up calculations. V3 further decomposes the nxn convolution kernel into 1xn and nx1 convolution kernels, while reducing the size of the feature map and increasing the number of channels.
   ## Recommendations
   
