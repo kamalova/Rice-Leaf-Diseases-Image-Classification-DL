@@ -20,7 +20,7 @@ In an effort to solve this problem and assist farmers and everyday gardeners to 
 ### Data Understanding
  The data was sourced from https://www.kaggle.com/datasets/nizorogbezuode/rice-leaf-images dataset . The images are in 4 folders, classified as follows:<p>
  ![class_distr](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/Images/class_distribution.png) <p>
-  
+ 
   Natural Green leaves indicate **Healthy** rice plants.
   ![healthy](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/Images/health.png) <p>
  **Leaf Blast** *(leaf and collar)* is caused by the fungus Magnaporthe oryzae. It can affect all above ground parts of a rice plant: leaf, collar, node, neck, parts of panicle, and sometimes leaf sheath. Rice can have blast in all growth stages.
