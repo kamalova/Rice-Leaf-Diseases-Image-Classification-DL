@@ -37,8 +37,8 @@ The advantages of an automated rice disease detection system can prove of much v
    ![conf_matrix](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/Images/conf_matrix.png) <p> 
    ![classf_report](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/Images/classif_report.png) <p> 
 ## Recommendation 
+ use **LEAF**![](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/Images/logo.jpg)**GREEN** 
 **Leaf Green** can be trusted to properly class common rice leaf diseases. We recommend to use this product as early as possible to catch disease before it spreads to the rest of the rice plants.<p>
-Our recommendation: use **LEAF**![](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/Images/logo.jpg)**GREEN**  
   
 ## Future Work
 * The performance of proposed model can be further improved with large dataset of rice diseased images along with other common disease.
