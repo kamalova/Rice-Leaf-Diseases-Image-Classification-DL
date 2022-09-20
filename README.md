@@ -36,8 +36,10 @@ This model was announced by the Google team in December 2015. V2 has two 3x3 con
 The final model had an accuracy score of 79% when predicting unseen data (test set). The confusion matrix from the test set is depicted below. The model is much better at correctly identifying the healthy leaves, and still struggles with correctly identifying the hispa leaves. However, it is overall predicting most of each class correctly.<p>
    ![conf_matrix](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/Images/conf_matrix.png) <p> 
    ![classf_report](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/Images/classif_report.png) <p> 
-     
- 
-    
-  ## Recommendations
+ ## Conclusion
+The advantages of an automated rice disease detection system can prove of much value to agricultural organizations and cultivators. Based on the evaluation of the test set *Leaf Green* can be expected to correctly class new images around 79% accuracy.<p>
   
+## Recommendations
+* The performance of proposed model can be further improved with large dataset of rice diseased images along with other common disease.
+* Based on the achieved results a mobile solution (application) can be developed for farmers and agricultural organizations to detect rice leaf diseases at hand. <p>
+* Adding location data to the model would be helpful for users as some diseases are more common in certain climates.
