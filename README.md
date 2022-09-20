@@ -48,5 +48,4 @@ The advantages of an automated rice disease detection system can prove of much v
 ### For More Information
 You can review my full analysis in my Jupyter Notebook or my presentation.<p>
 For any additional questions, please contact Nurgul Kurbanali kyzy at nurkamalova@gmail.com<p>
-
 Repository Structure
