@@ -45,7 +45,7 @@ The advantages of an automated rice disease detection system can prove of much v
 * Based on the achieved results a mobile solution (application) can be developed for farmers and agricultural organizations to detect rice leaf diseases at hand. <p>
 * Adding location data to the model would be helpful for users as some diseases are more common in certain climates.
 ### For More Information
-You can review my full analysis in my Jupyter Notebook or my presentation.
-For any additional questions, please contact Nurgul Kurbanali kyzy at nurkamalova@gmail.com
+You can review my full analysis in my Jupyter Notebook or my presentation.<p>
+For any additional questions, please contact Nurgul Kurbanali kyzy at nurkamalova@gmail.com<p>
 
 Repository Structure
