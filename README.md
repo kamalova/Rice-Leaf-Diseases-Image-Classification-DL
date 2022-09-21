@@ -44,7 +44,7 @@ The advantages of an automated rice disease detection system can prove of much v
 * Adding location data to the model would be helpful for users as some diseases are more common in certain climates.<p>
   
 ### For More Information
-You can review my full analysis in my [Jupyter Notebook](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/notebook.ipynb) or my presentation.<p>
+You can review my full analysis in my [Jupyter Notebook](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/notebook.ipynb) or my [presentation](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/PDFs/presentation.pdf).<p>
 For any additional questions, please contact Nurgul Kurbanali kyzy at nurkamalova@gmail.com<p>
 **Repository Structure**
 
