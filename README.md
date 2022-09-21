@@ -41,7 +41,6 @@ The advantages of an automated rice disease detection system can prove of much v
 ### Recommendations and Future Consideration
 **LEAF GREEN** can be trusted to properly class common rice leaf diseases. We recommend to use this product as early as possible to catch disease before it spreads to the rest of the rice plants.<p>
 * The performance of proposed model can be further improved with large dataset of rice diseased images along with other common disease.
-* Based on the achieved results a mobile solution (application) can be developed for farmers and agricultural organizations to detect rice leaf diseases at hand. <p>
 * Adding location data to the model would be helpful for users as some diseases are more common in certain climates.<p>
   
 ### For More Information
