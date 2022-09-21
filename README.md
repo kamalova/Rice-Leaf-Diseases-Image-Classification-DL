@@ -7,7 +7,7 @@
 * [Data Understanding](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/README.md#data-understanding)
 * [Model Analysis](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/README.md#model-analysis)
 * [Conclusion](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/README.md#conclusion-)
-* [Recommendations and Future Consideration](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/README.md#recommendation-and-future-consideration)
+* [Recommendations and Future Consideration](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/README.md#recommendations-and-future-consideration)
 * [For More Information](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/README.md#for-more-information)
 
 ###  Overview and Business Statement 
