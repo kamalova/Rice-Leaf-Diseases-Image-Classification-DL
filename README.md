@@ -35,9 +35,9 @@ In an effort to solve this problem and assist farmers and everyday gardeners to 
 After modeling with various CNN's the most promising involved transfer learning with *InceptionV3*. 
 This model was announced by the Google team in December 2015. V2 has two 3x3 convolution kernels instead of a 5x5, while V3 will decompose more thoroughly. The core idea of V3 is to first use two 3x3 convolution kernels instead of 5x5 convolution kernels, and three 3x3 convolution kernels instead of 7x7 convolution kernels to reduce the amount of parameters and speed up calculations. V3 further decomposes the nxn convolution kernel into 1xn and nx1 convolution kernels, while reducing the size of the feature map and increasing the number of channels.
 ### Conclusion <p>
+   ![classf_report](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/Images/classif_report.png) <p> 
 The advantages of an automated rice disease detection system can prove of much value to agricultural organizations and cultivators. Based on the evaluation of the test set **Leaf Green** can be expected to correctly class new images around 79% accuracy.<p> 
    ![barplot](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/Images/barplot.png) <p> 
-   ![classf_report](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/Images/classif_report.png) <p> 
 *Brown Spot* - performed predictions of true values (TP) at 77%. However, it has false alarms at 23% with other three classes.<p>
 *Healthy* - performed almost perfect job at 92% with the true values (TP). It has 6% false alarms on hispa and leaf blast. Missclassification rate is 1% with brown spot.<p>
 *Leaf Blast*- Performed correct prediction with 72% which i nearly same as brown spot(less 5%). It missclassified 26% with healthy and hispa leaves.<p>
