@@ -11,11 +11,11 @@
 * [For More Information](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/README.md#for-more-information)
 
 ###  Overview and Business Statement 
-Rice is one of the most cultivated crops in the world, in over a hundred countries. As per reports by interest groups, rice consists of a total harvested area of approximately 158 million hectares, producing more than 700 million tons annually (470 million tons of milled rice). With rice being such a valuable commodity, a common problem that widespread cultivators face is infestation of rice leaf diseases. Infection by diseases results in great loss to economic to the farmers in every year.
+Rice is one of the most cultivated crops in the world, in over a hundred countries. Rice production is the 3rd largest among cereals in the U.S. Arkansas where our stakeholders from ranks 1st in rice production in the U.S., accounting for over 40% of rice production.With rice being such a valuable commodity, a common problem that widespread cultivators face is infestation of rice leaf diseases. Infection by diseases results in great loss to economic to the farmers in every year.
 
 In traditional practices, identification is performed either by visual observation or by testing in laboratory. The visual observation requires expertise and it may vary subject to an individual which may lead to an error while the laboratory test is time consuming and may not be able to provide the results in time. Taking into consideration the large range of possible diseases, it becomes a difficult task for cultivators to individually identify these cases, especially for large fields. 
   
-In an effort to solve this problem and assist farmers and everyday gardeners to ensure a healthy crop, **Leaf Green** uses an image classification model to help predict and identify three common leaf diseases  *(Brown Spot, Leaf Blast, Hispa)*  based on images of both healthy and diseased rice plant leaves.
+In an effort to solve this problem and assist farmers and everyday gardeners to ensure a healthy crop, *Leaf Green* uses an image classification model to help predict and identify three common leaf diseases (Brown Spot, Leaf Blast) along with Healthy plants based on 3355 rice images
   
 ### Data Understanding
  The data was sourced from https://www.kaggle.com/datasets/nizorogbezuode/rice-leaf-images dataset . The images are in 4 folders, classified as follows:<p>
@@ -35,14 +35,22 @@ In an effort to solve this problem and assist farmers and everyday gardeners to 
 After modeling with various CNN's the most promising involved transfer learning with *InceptionV3*. 
 This model was announced by the Google team in December 2015. V2 has two 3x3 convolution kernels instead of a 5x5, while V3 will decompose more thoroughly. The core idea of V3 is to first use two 3x3 convolution kernels instead of 5x5 convolution kernels, and three 3x3 convolution kernels instead of 7x7 convolution kernels to reduce the amount of parameters and speed up calculations. V3 further decomposes the nxn convolution kernel into 1xn and nx1 convolution kernels, while reducing the size of the feature map and increasing the number of channels.
 ### Conclusion <p>
-The advantages of an automated rice disease detection system can prove of much value to agricultural organizations and cultivators. Based on the evaluation of the test set **Leaf Green** can be expected to correctly class new images around 79% accuracy.<p> The confusion matrix from the test set is depicted below. The model is much better at correctly identifying the healthy leaves, and still struggles with correctly identifying the hispa leaves. However, it is overall predicting most of each class correctly.<p>
-   ![conf_matrix](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/Images/conf_matrix.png) <p> 
+The advantages of an automated rice disease detection system can prove of much value to agricultural organizations and cultivators. Based on the evaluation of the test set **Leaf Green** can be expected to correctly class new images around 79% accuracy.<p> 
+   ![barplot](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/Images/barplot.png) <p> 
    ![classf_report](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/Images/classif_report.png) <p> 
+*Brown Spot* - performed predictions of true values (TP) at 77%. However, it has false alarms at 23% with other three classes.
+*Healthy* - performed almost perfect job at 92% with the true values (TP). It has 6% false alarms on hispa and leaf blast. Missclassification rate is 1% with brown spot.
+*Leaf Blast *- Performed correct prediction with 72% which i nearly same as brown spot(less 5%). It missclassified 26% with healthy and hispa leaves.
+*Hispa* - performing one of the worst according to our normalized confusion matrix. It did classify 39% of the leaves as a healthy ones which is bad for disease prevention.
 ### Recommendations and Future Consideration
-**LEAF GREEN** can be trusted to properly class common rice leaf diseases. We recommend to use this product as early as possible to catch disease before it spreads to the rest of the rice plants.<p>
-* The performance of proposed model can be further improved with large dataset of rice diseased images along with other common disease.
-* Adding location data to the model would be helpful for users as some diseases are more common in certain climates.<p>
-  
+*Leaf Green* can be used to classify two common diseases(brown spot, leaf blast) along with healthy rice leaves. We recommend to use this product as early as possible to catch disease before it spreads to the rest of the rice plants.<p>
+In terms of hispa disase model did strugle to classify it correctly. It may be due to the image quality. They may have a lot in common with regular healthy leaves so model classified them as a healthy ones. This class needs to be further improved with more and diverse image datasets.<p>
+
+The performance of proposed model can be further improved with large dataset of rice diseased images along with other common disease.<p>
+Experimenting with a different algorithm and adding some context to the data may also lead to some improvments.<p>
+Based on the achieved results a mobile solution (application) can be developed for farmers and agricultural organizations to detect rice leaf diseases at hand.<p>
+Adding location data to the model would be helpful for users as some diseases are more common in certain climates.<p>
+ 
 ### For More Information
 You can review my full analysis in my [Jupyter Notebook](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/notebook.ipynb) or my [presentation](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/PDFs/presentation.pdf).<p>
 For any additional questions, please contact Nurgul Kurbanali kyzy at nurkamalova@gmail.com<p>
