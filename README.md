@@ -38,10 +38,10 @@ This model was announced by the Google team in December 2015. V2 has two 3x3 con
 The advantages of an automated rice disease detection system can prove of much value to agricultural organizations and cultivators. Based on the evaluation of the test set **Leaf Green** can be expected to correctly class new images around 79% accuracy.<p> 
    ![barplot](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/Images/barplot.png) <p> 
    ![classf_report](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/Images/classif_report.png) <p> 
-*Brown Spot* - performed predictions of true values (TP) at 77%. However, it has false alarms at 23% with other three classes.
-*Healthy* - performed almost perfect job at 92% with the true values (TP). It has 6% false alarms on hispa and leaf blast. Missclassification rate is 1% with brown spot.
-*Leaf Blast *- Performed correct prediction with 72% which i nearly same as brown spot(less 5%). It missclassified 26% with healthy and hispa leaves.
-*Hispa* - performing one of the worst according to our normalized confusion matrix. It did classify 39% of the leaves as a healthy ones which is bad for disease prevention.
+*Brown Spot* - performed predictions of true values (TP) at 77%. However, it has false alarms at 23% with other three classes.<p>
+*Healthy* - performed almost perfect job at 92% with the true values (TP). It has 6% false alarms on hispa and leaf blast. Missclassification rate is 1% with brown spot.<p>
+*Leaf Blast *- Performed correct prediction with 72% which i nearly same as brown spot(less 5%). It missclassified 26% with healthy and hispa leaves.<p>
+*Hispa* - performing one of the worst according to our normalized confusion matrix. It did classify 39% of the leaves as a healthy ones which is bad for disease prevention.<p>
 ### Recommendations and Future Consideration
 *Leaf Green* can be used to classify two common diseases(brown spot, leaf blast) along with healthy rice leaves. We recommend to use this product as early as possible to catch disease before it spreads to the rest of the rice plants.<p>
 In terms of hispa disase model did strugle to classify it correctly. It may be due to the image quality. They may have a lot in common with regular healthy leaves so model classified them as a healthy ones. This class needs to be further improved with more and diverse image datasets.<p>
