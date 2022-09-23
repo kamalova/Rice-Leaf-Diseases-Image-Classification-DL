@@ -1,6 +1,6 @@
 ![banner](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/Images/banner.jpg)
 # ![](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/Images/banner_2.png)
-## **Rice Plant Disease Recognition Using Deep Learning**
+## **Rice Leaf Disease Image Classification Using Deep Learning**
 **Author: Nurgul Kurbanali kyzy** <p>
 #### Table of Contents
 * [Overview and Business Statement](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/README.md#overview-and-business-statement)
