@@ -40,7 +40,7 @@ The advantages of an automated rice disease detection system can prove of much v
    ![classf_report](https://github.com/kamalova/Rice_Leaf_Disease_Recognition_DL/blob/main/Images/classif_report.png) <p> 
 *Brown Spot* - performed predictions of true values (TP) at 77%. However, it has false alarms at 23% with other three classes.<p>
 *Healthy* - performed almost perfect job at 92% with the true values (TP). It has 6% false alarms on hispa and leaf blast. Missclassification rate is 1% with brown spot.<p>
-*Leaf Blast *- Performed correct prediction with 72% which i nearly same as brown spot(less 5%). It missclassified 26% with healthy and hispa leaves.<p>
+*Leaf Blast*- Performed correct prediction with 72% which i nearly same as brown spot(less 5%). It missclassified 26% with healthy and hispa leaves.<p>
 *Hispa* - performing one of the worst according to our normalized confusion matrix. It did classify 39% of the leaves as a healthy ones which is bad for disease prevention.<p>
 ### Recommendations and Future Consideration
 *Leaf Green* can be used to classify two common diseases(brown spot, leaf blast) along with healthy rice leaves. We recommend to use this product as early as possible to catch disease before it spreads to the rest of the rice plants.<p>
