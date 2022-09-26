@@ -45,7 +45,7 @@ The advantages of an automated rice disease detection system can prove of much v
 *Hispa* - performing one of the worst according to our normalized confusion matrix. It did classify 39% of the leaves as a healthy ones which is bad for disease prevention.<p>
 ### Recommendations and Future Consideration
 *Leaf Green* can be used to classify two common diseases(brown spot, leaf blast) along with healthy rice leaves. We recommend to use this product as early as possible to catch disease before it spreads to the rest of the rice plants.<p>
-In terms of hispa disase model did strugle to classify it correctly. It may be due to the image quality. They may have a lot in common with regular healthy leaves so model classified them as a healthy ones. This class needs to be further improved with more and diverse image datasets s along with other common disease.<p>
+In terms of hispa disase model did struggle to classify it correctly. It may be due to the image quality. They may have a lot in common with regular healthy leaves so model classified them as a healthy ones. This class needs to be further improved with more and diverse image datasets s along with other common disease.<p>
 Experimenting with a different algorithm and adding some context to the data may also lead to some improvements.<p>
 Based on the achieved results a mobile solution (application) can be developed for farmers and agricultural organizations to detect rice leaf diseases at hand.<p>
 Adding location data to the model would be helpful for users as some diseases are more common in certain climates.<p>
