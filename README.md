@@ -16,7 +16,7 @@ Rice is one of the most cultivated crops in the world, in over a hundred countri
 
 In traditional practices, identification is performed either by visual observation or by testing in laboratory. The visual observation requires expertise and it may vary subject to an individual which may lead to an error while the laboratory test is time consuming and may not be able to provide the results in time. Taking into consideration the large range of possible diseases, it becomes a difficult task for cultivators to individually identify these cases, especially for large fields. 
   
-In an effort to solve this problem and assist farmers and everyday gardeners to ensure a healthy crop, *Leaf Green* uses an image classification model to help predict and identify three common leaf diseases (Brown Spot, Leaf Blast) along with Healthy plants based on 3355 rice images
+In an effort to solve this problem and assist farmers and everyday gardeners to ensure a healthy crop, *Leaf Green* uses an image classification model to help predict and identify two common leaf diseases (Brown Spot, Leaf Blast) along with Healthy plants based on 3355 rice images
   
 ### Data Understanding
  The data was sourced from https://www.kaggle.com/datasets/nizorogbezuode/rice-leaf-images dataset . The images are in 4 folders, classified as follows:<p>
